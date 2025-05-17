@@ -1,3 +1,4 @@
+# using two pointers and sorting 
 class Solution(object):
     def twoSum(self, nums, target):
         """
@@ -20,3 +21,9 @@ class Solution(object):
             if nums[i]==nums1[l] or nums[i]==nums1[r]: # check if the number is one of the two numbers
                 result.append(i)
         return result
+if __name__ == "__main__":
+    nums = [2,7,11,15]
+    target = 9
+    result = Solution().twoSum(nums, target)
+    # The expected output is [0,1]
+    print("Result:", result)
