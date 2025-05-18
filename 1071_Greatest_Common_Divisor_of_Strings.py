@@ -12,3 +12,4 @@ if __name__ == "__main__":
     result = Solution().gcdOfStrings(str1, str2)
     # The expected output is "ABC"
     print("Result:", result)
+
